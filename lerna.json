@@ -1,0 +1,12 @@
+{
+  "packages": ["packages/*", "examples/*"],
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "message": "chore(release): release"
+    }
+  },
+  "version": "9.1.0"
+}

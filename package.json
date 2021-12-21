@@ -3,17 +3,30 @@
   "version": "2.0.0",
   "description": "Java Parser in JavaScript",
   "main": "src/index.js",
-  "repository": "https://github.com/jhipster/prettier-java/tree/main/packages/java-parser",
+  "repository": "https://github.com/udaybhasker-ub/java-parser.git",
   "license": "Apache-2.0",
   "types": "./api.d.ts",
-  "dependencies": {
-    "chevrotain": "https://github.com/udaybhasker-ub/chevrotain.git",
-    "lodash": "4.17.21"
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "examples/*"
+    ]
   },
   "scripts": {
+    "build": "lerna run build",
     "test": "npm-run-all clone-samples test:execute",
     "test:execute": "mocha \"test/**/*-spec.js\"",
     "clone-samples": "node ./scripts/clone-samples"
   },
-  "gitHead": "a9fe7da3d13d0c8a4b74dc6623f3b388fc2aade4"
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "lerna": "^4.0.0",
+    "lodash": "^4.17.21",
+    "mocha": "^9.1.3",
+    "npm-run-all": "^4.1.5",
+    "shx": "^0.3.3",
+    "typescript": "^4.5.4"
+  }
 }
