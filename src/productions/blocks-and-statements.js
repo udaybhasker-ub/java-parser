@@ -1,6 +1,6 @@
 "use strict";
 
-const { tokenMatcher } = require("chevrotain");
+const { tokenMatcher } = require("chevrotain/packages/chevrotain");
 
 // Spec Deviation: The "*NoShortIf" variations were removed as the ambiguity of
 //                 the dangling else is resolved by attaching an "else" block

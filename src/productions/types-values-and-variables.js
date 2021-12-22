@@ -1,6 +1,6 @@
 "use strict";
 
-const { tokenMatcher } = require("chevrotain");
+const { tokenMatcher } = require("chevrotain/packages/chevrotain");
 
 function defineRules($, t) {
   // ---------------------

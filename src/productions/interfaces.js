@@ -1,5 +1,5 @@
 "use strict";
-const { tokenMatcher } = require("chevrotain");
+const { tokenMatcher } = require("chevrotain/packages/chevrotain");
 
 function defineRules($, t) {
   // https://docs.oracle.com/javase/specs/jls/se16/html/jls-9.html#jls-InterfaceDeclaration

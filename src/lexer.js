@@ -1,5 +1,5 @@
 "use strict";
-const chevrotain = require("chevrotain");
+const chevrotain = require("chevrotain/packages/chevrotain");
 const { allTokens } = require("./tokens");
 const { getSkipValidations } = require("./utils");
 

@@ -1,5 +1,5 @@
 "use strict";
-const { Parser, isRecognitionException } = require("chevrotain");
+const { Parser, isRecognitionException } = require("chevrotain/packages/chevrotain");
 const { allTokens, tokens: t } = require("./tokens");
 const lexicalStructure = require("./productions/lexical-structure");
 const typesValuesVariables = require("./productions/types-values-and-variables");
