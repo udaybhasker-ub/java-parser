@@ -1,6 +1,6 @@
 "use strict";
 
-const { isRecognitionException, tokenMatcher } = require("chevrotain/packages/chevrotain");
+const { isRecognitionException, tokenMatcher } = require("chevrotain");
 
 function defineRules($, t) {
   // https://docs.oracle.com/javase/specs/jls/se16/html/jls-8.html#jls-ClassDeclaration
